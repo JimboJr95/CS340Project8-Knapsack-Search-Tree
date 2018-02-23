@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BFCFC14B1FC9E5F700137B27 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFCFC14A1FC9E5F700137B27 /* main.cpp */; };
+		BFCFC14B1FC9E5F700137B27 /* cs340project8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFCFC14A1FC9E5F700137B27 /* cs340project8.cpp */; };
+		BFCFC1531FC9E65F00137B27 /* KnapsackSearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFCFC1511FC9E65F00137B27 /* KnapsackSearchTree.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		BFCFC1471FC9E5F700137B27 /* cs340project8(knapsack search tree) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cs340project8(knapsack search tree)"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFCFC14A1FC9E5F700137B27 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BFCFC14A1FC9E5F700137B27 /* cs340project8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cs340project8.cpp; sourceTree = "<group>"; };
+		BFCFC1511FC9E65F00137B27 /* KnapsackSearchTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KnapsackSearchTree.cpp; sourceTree = "<group>"; };
+		BFCFC1521FC9E65F00137B27 /* KnapsackSearchTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnapsackSearchTree.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		BFCFC1491FC9E5F700137B27 /* cs340project8(knapsack search tree) */ = {
 			isa = PBXGroup;
 			children = (
-				BFCFC14A1FC9E5F700137B27 /* main.cpp */,
+				BFCFC14A1FC9E5F700137B27 /* cs340project8.cpp */,
+				BFCFC1511FC9E65F00137B27 /* KnapsackSearchTree.cpp */,
+				BFCFC1521FC9E65F00137B27 /* KnapsackSearchTree.h */,
 			);
 			path = "cs340project8(knapsack search tree)";
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFCFC14B1FC9E5F700137B27 /* main.cpp in Sources */,
+				BFCFC14B1FC9E5F700137B27 /* cs340project8.cpp in Sources */,
+				BFCFC1531FC9E65F00137B27 /* KnapsackSearchTree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
